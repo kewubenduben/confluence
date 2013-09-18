@@ -37,7 +37,7 @@ end
 
 postgresql_database 'confluence' do
   connection postgresql_connection_info
-  encoding 'UNICODE'
+  # encoding 'UNICODE'
   owner 'postgres'
   action :create
 end
